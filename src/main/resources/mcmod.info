@@ -1,0 +1,18 @@
+[
+  {
+    "modid": "featherdetector",
+    "name": "Feather Detector",
+    "description": "Detects feather :trollgod:",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "url": "",
+    "updateUrl": "",
+    "authorList": [
+      ""
+    ],
+    "credits": "",
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": []
+  }
+]
