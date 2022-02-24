@@ -10,12 +10,6 @@ import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 @Mod(modid = "featherdetector", name = "Feather Detector", version = "1.0")
 public class ForgeTemplate {
     @Mod.EventHandler
-    public void onFMLInitialization(FMLInitializationEvent event) {
-        // $USER = The username of the currently logged in user.
-        // Simply prints out Hello, $USER.
-        System.out.println("Hello, " + Minecraft.getMinecraft().getSession().getUsername() + "!");
-    }
-    @Mod.EventHandler
     public void onFMLPostInitialization(FMLPostInitializationEvent event) {
         if (Loader.isModLoaded("feather")) {
             Minecraft.getMinecraft().crashed(new CrashReport("dont use feather :)", new Throwable()));
